@@ -1,0 +1,146 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family:'Arial';
+    user-select: none;
+}
+.users
+{
+    /* margin: 100px; */
+    display: flex;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    opacity: 1.0;
+}
+
+.bodystart
+{
+    margin-top: 4.5%;
+    padding: 4%;
+    width: 100%;
+    height: 5000px;
+    background-color: skyblue;
+}
+.box
+{
+    display: flex;
+    column-gap: 40px;
+    /* // will be used
+    margin-top: 4%;  */
+    height: 250px;
+    width: 100%;
+    /* will be used
+    flex-wrap: wrap;  */
+    justify-content: space-between;
+    row-gap: 50px;
+}
+/* .box:hover{
+} */
+.img
+{
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+}
+
+.slide
+{
+    margin-top: 4.5%;
+    width: 75%;
+    height: 350px;
+    background-color: red;
+}
+/* .leftbtn
+{
+    margin-right: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+} */
+
+.slidehead
+{
+    display: flex;
+    width: 97%;
+    padding: 2% 2% 0% 2%;
+    justify-content: space-between;
+}
+
+.slide-body
+{
+    width: 94%;
+    margin: 0% 2% 0% 2%;
+    padding: 1%;
+    height: 230px;
+    background-color: aliceblue;
+}
+
+
+
+.star
+{
+    /* will be used
+    width: 350px; */
+    /* overflow: auto; */
+
+    width: 230px;
+    background-color:tomato;
+    height: 320px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    /* margin-left: -5%; */
+}
+.star > p
+{
+    text-indent: 20px;
+}
+.content
+{
+    padding: 5px;
+    font-size: 12px;
+    height: 60px;
+    line-height: 20px;
+    color: white;
+}
+
+.timedis
+{
+    display: flex;
+    text-indent: 10px;
+    width: 100%;
+    /* margin-top: -10px; */
+}
+.tim 
+{
+    width: 70%;
+}
+.cmnts
+{
+    width: 100%;
+    align-self: flex-end;
+    color: blueviolet;
+}
+.cmnimg
+{
+    margin-top: -10px;
+}
+.cmnimg
+{
+    align-self: flex-end;
+    /* text-align: end; */
+    margin-left: 120px; 
+}

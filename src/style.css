@@ -1,0 +1,123 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: static;
+}
+body{
+    background-color: black;
+}
+.container
+{
+    margin: 100px;
+    display: flex;
+    column-gap: calc(20%/3) ;
+    width: 90%;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    justify-content: space-evenly;
+} 
+
+.box
+{
+    height: 300px;
+    width: 20%;
+    border-radius: 20px;
+}
+.ContentStyle
+{
+    text-align: center;
+    color: aqua;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26, 20, 20);
+    padding: 15px;
+}
+.spacecontent
+{
+    margin-left: 25px;
+}
+
+.form-head
+{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form
+{
+    height: 500px;
+    width: 400px;
+    background-color:darkorange;
+    position: absolute;
+    padding: 10px;
+    color: skyblue;
+    transition: .3s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+input
+{
+    
+    padding:5px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    text-indent: 10px;
+    background-color: rgb(224, 156, 72);
+}
+
+.btns
+{
+    text-align: end;
+    margin-right: 80px;
+}
+.btn
+{
+    padding: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+    color: white;
+    background-color:darkturquoise;
+    border: none;
+}
+::placeholder
+{
+    color:mediumorchid;
+}
+
+.actions
+{
+    display: flex;
+    margin-top: 10px;
+    column-gap: 20px;
+}
+
+.col
+{
+    background-color: green;
+}
+
+.col2
+{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
